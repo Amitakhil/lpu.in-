@@ -1,0 +1,37 @@
+.block{display:block;
+margin:10 0}
+
+#title,#description {text-align:Center;}
+
+#name,#email,#number,#dropdown,.block,#submit{width:100%}
+
+.main{background-color:#2c2c4a60;
+margin:0 15vw}
+
+body{color:#ffffff;
+background:rgb(227,0,15,30%);
+font-family:sans-serif;}
+
+#submit{background-color:#37af55;
+border-radius:0;}
+
+fieldset{border:0}
+
+input{border:0;
+border-radius:5px;
+padding:6 10}
+
+#dropdown{border:0;
+border-radius:5px;
+padding:6 10;
+color:#979b9f}
+
+#description{font-style:italic;
+font-size:0.92em;
+padding:0 0 30 0}
+
+.inline{display:inline;font-style:unset;
+font-size:0.8em}
+
+#title{margin-top:40px;
+margin-bottom:-5;}

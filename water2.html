@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="water1.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1 id="title">Water Quality Analysis Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the website</p>
+  <fieldset class="main">
+  <form id="survey-form">
+    <fieldset class="side"><label  id="name-label" class="a">Name <input class="block"  type="text" id="name" placeholder="Enter your name" required></label></fieldset><fieldset class="side">
+    <label id="email-label">Email <input class="block" type="email" placeholder="Enter your Email" id="email" required></label></fieldset><fieldset class="side">
+    <label id="number-label">Age <p class="inline">(optional)</p> <input class="block" type="number" id="number" placeholder="Enter your age" min="10" max="99"></label></fieldset><fieldset class="side">
+    Which option best describes your current role?
+    <select class="block" id="dropdown">
+      <option>Select current role</option>
+      <option>Student</option>
+      <option>Full Time Job</option>
+      <option>Full Time Learner</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+      </select></fieldset><fieldset class="side">
+    Would you recommend our website to a friend?
+   <label class="block"> <input type="radio" name="view" value="Definitely"> Definitely</label>
+   <label class="block"><input type="radio" name="view" value="Maybe"> Maybe</label>
+   <label class="block"><input type="radio" name="view" value="Not-Sure"> Not Sure</label></fieldset><fieldset class="side">
+  Any comments or suggestions?
+  <textarea rows="5" class="block"></textarea></fieldset><fieldset class="side">
+ <input type="submit" id="submit">
+</fieldset>
+</fieldset>
+</body>
+</html>
